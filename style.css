@@ -7,6 +7,7 @@ body {
     background: #e3e1e1;
     font-family: 'Lato', sans-serif;
     background-image: url('https://images.unsplash.com/photo-1561553873-e8491a564fd0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1847');
+    background-size: cover
 }
 
 .card {
