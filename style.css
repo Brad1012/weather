@@ -49,3 +49,8 @@ button {
 button:hover {
     background-color: white;
 }
+
+.weather {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
