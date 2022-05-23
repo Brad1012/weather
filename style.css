@@ -7,12 +7,12 @@ body {
     background: #e3e1e1;
     font-family: 'Lato', sans-serif;
     background-image: url('https://images.unsplash.com/photo-1553984840-ec965a23cddd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664');
-    background-size: cover
+    background-size: cover;
 }
 
 .card {
     background-color: rgb(36, 36, 36);
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 2em;
     border-radius: 20px;
     width: 100%;
@@ -25,7 +25,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.9;
     color: white;
 }
 
@@ -39,7 +38,7 @@ button {
 
 .search-bar {
     padding: 11px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #69696980;
     font-size: 20px;
     color: white;
@@ -50,11 +49,29 @@ button:hover {
     background-color: white;
 }
 
-.weather {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.temp {
+    font-size: 35px;
 }
 
-.city {
-    text-transform: capitalize;
+h1.temp {
+    margin: 0;
+    margin-bottom: 10px;
 }
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .wind {
+      margin: 5px;
+  }
+
+  .humidity {
+      margin: 5px;
+  }
