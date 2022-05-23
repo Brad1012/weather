@@ -6,7 +6,7 @@ body {
     height: 100vh;
     background: #e3e1e1;
     font-family: 'Lato', sans-serif;
-    background-image: url('https://images.unsplash.com/photo-1553984840-ec965a23cddd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664');
+    background-image: url(' https://source.unsplash.com/2560x1440/?wallpaper,landscape');
     background-size: cover;
 }
 
@@ -74,4 +74,18 @@ h1.temp {
 
   .humidity {
       margin: 5px;
+  }
+
+  .weather.loading {
+      visibility: hidden;
+      max-height: 20px;
+      position: relative;
+  }
+
+  .weather.loading:after {
+      visibility: visible;
+      content: "Loading...";
+      color: white;
+      position: absolute;
+      top: 0;
   }
