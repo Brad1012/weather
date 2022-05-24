@@ -68,21 +68,25 @@ h1.temp {
     align-items: center;
   }
 
-  .wind {
+.wind {
       margin: 5px;
   }
 
-  .humidity {
+.humidity {
       margin: 5px;
   }
 
-  .weather.loading {
+.weather {
+      padding-left: 45px;
+}
+
+.weather.loading {
       visibility: hidden;
       max-height: 20px;
       position: relative;
   }
 
-  .weather.loading:after {
+.weather.loading:after {
       visibility: visible;
       content: "Loading...";
       color: white;
