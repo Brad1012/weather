@@ -93,3 +93,9 @@ h1.temp {
       position: absolute;
       top: 0;
   }
+
+@media screen and (max-width:800px) {
+ .card .search-bar {
+width: 80%;
+ } 
+}
