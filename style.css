@@ -68,7 +68,7 @@ h1.temp {
     align-items: center;
   }
 
-  .wind .humidity {
+  .wind, .humidity {
       margin: 5px;
   }
 
