@@ -14,7 +14,7 @@ body {
     background-color: rgb(36, 36, 36);
     opacity: 0.8;
     padding: 2em;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 100%;
     max-width: 420px;
     margin: 1em;
@@ -68,11 +68,7 @@ h1.temp {
     align-items: center;
   }
 
-.wind {
-      margin: 5px;
-  }
-
-.humidity {
+  .wind .humidity {
       margin: 5px;
   }
 
@@ -80,13 +76,13 @@ h1.temp {
       padding-left: 45px;
 }
 
-.weather.loading {
+  .weather.loading {
       visibility: hidden;
       max-height: 20px;
       position: relative;
   }
 
-.weather.loading:after {
+  .weather.loading:after {
       visibility: visible;
       content: "Loading...";
       color: white;
@@ -98,4 +94,7 @@ h1.temp {
  .card .search-bar {
 width: 80%;
  } 
+  .weather {
+    padding-left: 20px;
+  }
 }
