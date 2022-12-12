@@ -29,7 +29,7 @@ body {
 }
 
 button {
-    padding: 1em;
+    padding: 1.125em;
     border-radius: 8px;
     border: none;
     margin: 10px;
@@ -43,6 +43,7 @@ button {
     font-size: 20px;
     color: white;
 }
+
 
 button:hover {
     background-color: white;
@@ -68,7 +69,7 @@ h1.temp {
   }
 
   .wind, .humidity {
-      margin: 5px;
+      margin: 5px 58px;
   }
 
 .weather {
