@@ -1,2 +1,2 @@
-# weather
-weather site using api
+# Weather
+Weather site using api.
