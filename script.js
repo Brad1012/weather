@@ -47,8 +47,6 @@ if (event.key == "Enter") {
 
 weather.fetchWeather("London");
 
-
-
 /*let geocode = {
   reverseGeocode: function (geoplugin_city) {
 if (Request.status ===200) {
