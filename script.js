@@ -46,31 +46,3 @@ if (event.key == "Enter") {
 });
 
 weather.fetchWeather("London");
-
-/*let geocode = {
-  reverseGeocode: function (geoplugin_city) {
-if (Request.status ===200) {
-  var data = JSON.parse(Request.responseText);
-  geocode(geoplugin_city.results[0]);
-  console.log(data.results(geoplugin_city[0]))
-
-} else if (Request.status <= 500) {
-  console.log("unable to geocode! Response code: " + request.status);
-                var data = JSON.parse(request.responseText);
-                console.log('error msg: ' + data.status.message);
-              } else {
-                console.log("server error");
-            };
-           }
-        }
-          request.onerror = function() {
-            console.log("server error");
-          };
-
-
-document.querySelector(".search") = geoplugin_city();
-alert(geoplugin_city());
-console.log(geoLocation)
-weather.fetchWeather('london')
-function geoplugin_city();*/
-
